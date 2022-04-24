@@ -26,7 +26,7 @@ function createItem(title, srcImg, artist, genre, id) {
     '<div class="info">' +
     `<h5>${title}</h5>` +
     `<p>Artist: ${artist}</p>` +
-    `<p>Genre: ${genre}</p>` +
+    `<p id="genre">Genre: ${genre}</p>` +
     "</div>" +
     "</p>" +
     "</div>"

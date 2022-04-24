@@ -381,7 +381,27 @@ h2 {
     width: 60%;
     margin: 10%;
   }
-  .btn3 .info {
+  .topartists {
+    display: none;
+  }
+  .col3 {
+    margin: 0 0;
+    max-width: none;
+    text-align: left;
+  }
+  .col3 h5 {
+    font-size: 100%;
     
+  }
+  .col3 p {
+    font-size: 90%;
+    color: black;
+    margin: 3px 0;
+  }
+  .col3 a .info {
+    padding-left: 5%;
+  }
+  #genre {
+    display: none;
   }
 }
