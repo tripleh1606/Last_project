@@ -2,15 +2,11 @@ function createItemSongs(img, title, artist) {
   var listSongs = document.getElementById("likedSongs");
   listSongs.innerHTML +=
     `<a class="btnLikedSongs" href="./detail.html" onclick="return addDetail('${title}')">` +
-    '<div class="row">' +
-    '<div class="col-2">' +
-    `<img src="${img}" class="offer-img">` +
-    "</div>" +
-    '<div class="col-2">' +
-    '<div class="songsinfo">' +
+    `<img src="${img}" alt width="15%" class="offer-img">` +
+    '<div class="col-4">' +
+    '<div class="info">' +
     `<h1>${title}</h1>` +
     `<p>${artist}</p>` +
-    "</div>" +
     "</div>" +
     "</div>" +
     "</a>";
