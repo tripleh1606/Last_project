@@ -5,7 +5,7 @@ var item = JSON.parse(localStorage.getItem("details"));
 console.log(item);
 
 function returnIndex() {
-  location.replace("/Project/HTML/index.html");
+  location.replace("./index.html");
 }
 
 
