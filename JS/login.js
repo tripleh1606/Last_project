@@ -23,18 +23,6 @@ var user = [
     passWord: "1606",
     likedSongs: [],
   },
-  {
-    name: "Long",
-    userName: "dragon@gmail.com",
-    passWord: "123",
-    likedSongs: [],
-  },
-  {
-    name: "Quoc",
-    userName: "cuoc@gmail.com",
-    passWord: "321",
-    likedSongs: [],
-  },
 ];
 
 import callUser from "./callUser.js";
