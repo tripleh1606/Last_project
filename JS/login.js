@@ -133,7 +133,7 @@ btn_signup.addEventListener("click", () => {
   callData.addUser(data);
   alert("Success")
   } else {
-    alert("Làm lại đi bạn ơi:)")
+    alert("Error! Try again")
   }
 })
 
